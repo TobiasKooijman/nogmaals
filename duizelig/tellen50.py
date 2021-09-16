@@ -1,18 +1,14 @@
 import time
-i = 1
-g = 1
-b=50
-l=50
-t= 50
-for i in range(50,1000):
-    while l >= 50:
-        t = b + g
-        g = t + t
-        print(t)
-        print(g)
-        time.sleep(1)
-        while g >= 1000:
-            exit()
+totalsum = 0
+number = 50
+while totalsum < 1001:
+    print(totalsum)
+    number = number + 1
+    totalsum = totalsum + number
+
+    
+
+
 
 ##### IK WEET NIET OF IK DIT GOED HEB GEDAAN MAAR IK WAS HIER 2 UUR MEE BEZIG EN IK SNAP ER NOG STEEDS HELEMAAL NIKS VAN
 #FUCK DEZE OPDRACHT
