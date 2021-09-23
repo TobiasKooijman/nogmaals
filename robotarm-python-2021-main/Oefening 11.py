@@ -10,7 +10,7 @@ for n in range(9):
     robotArm.moveLeft()
     robotArm.grab()
     robotArm.scan()
-    if color == "white":
+    if (color.lower() == "white"):
         robotArm.moveRight()
     robotArm.drop()
 # Na jouw code wachten tot het sluiten van de window:
